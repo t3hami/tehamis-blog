@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/t3hami/t3hami.github.io.git
+	branch = main
