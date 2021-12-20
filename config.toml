@@ -62,9 +62,10 @@ theme = 'LoveIt'
 
   # Social config about the author
   [params.social]
-    GitHub = "https://github.com/t3hami"
-    Linkedin = "https://www.linkedin.com/in/t3hami"
+    GitHub = "t3hami"
+    Linkedin = "t3hami"
     Email = "t3hami@gmail.com"
+    Twitter = "MuhammadTehami"
 
   [params.page.math]
       enable = true
