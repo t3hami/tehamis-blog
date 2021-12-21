@@ -8,6 +8,32 @@ theme = 'LoveIt'
    tag = "tags"
    category = "categories"
 
+[menu]
+  [[menu.main]]
+    name = "Blogs"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+  
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
 [params]
   # LoveIt theme version
   version = "0.2.X"
