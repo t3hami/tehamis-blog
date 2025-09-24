@@ -1,7 +1,13 @@
 ---
 title: "Chicago Trip Tour Diary"
-date: 2025-06-24
+date: 2025-06-24T10:00:00-05:00
 draft: false
+author: "Muhammad Tehami"
+categories: ["Travel"]
+tags: ["Chicago", "Travel Diary", "Navy Pier", "Willis Tower", "Shedd Aquarium", "Art Institute of Chicago"]
+featuredImage: "skyline.jpg"
+location: "Chicago, Illinois, USA"
+trip_dates: "June 21–24, 2025"
 ---
 
 ✨ A short but memorable getaway to Chicago ✨  

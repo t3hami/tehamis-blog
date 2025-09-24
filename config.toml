@@ -48,8 +48,13 @@ theme = 'PaperMod'
   ShowReadingTime = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
   mainSections = ["tech", "books", "travel"]
   ShowPostOnHome = true
+  name = "Muhammad Tehami"
+  email = "t3hami [at] gmail [dot] com"
+  images = ["images/avatar.jpg"]
 
   # Profile section
   [params.homeInfoParams]
@@ -73,10 +78,9 @@ theme = 'PaperMod'
     name = "email"
     url = "mailto:t3hami [at] gmail [dot] com"
 
-# Author info (for meta tags etc.)
-[params.author]
-  name = "Muhammad Tehami"
-  email = "t3hami [at] gmail [dot] com"
-
 [markup.goldmark.renderer]
   unsafe = true
+
+# For better SEO structure
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
