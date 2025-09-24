@@ -19,31 +19,36 @@ theme = 'PaperMod'
     weight = 2
 
   [[menu.main]]
+    name = "Travel"
+    url = "/travel/"
+    weight = 3
+
+  [[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 6
 
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 6
+    weight = 7
 
 [params]
   env = "production"
   ShowReadingTime = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  mainSections = ["tech", "books"]
+  mainSections = ["tech", "books", "travel"]
   ShowPostOnHome = true
 
   # Profile section
