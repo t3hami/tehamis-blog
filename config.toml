@@ -1,119 +1,77 @@
 baseURL = 'http://t3hami.github.io/'
 languageCode = 'en-us'
-title = "_T3hami's_Blog_"
-
-theme = 'LoveIt'
+title = "Tehami's Blog"
+theme = 'PaperMod'
 
 [taxonomies]
-   tag = "tags"
-   category = "categories"
+  tag = "tags"
+  category = "categories"
 
 [menu]
   [[menu.main]]
-    name = "Blogs"
-    url = "/posts/"
+    name = "Tech"
+    url = "/tech/"
     weight = 1
+
+  [[menu.main]]
+    name = "Books"
+    url = "/books/"
+    weight = 2
 
   [[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 4
-  
+    weight = 5
+
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
 
 [params]
-  # LoveIt theme version
-  version = "0.2.X"
+  env = "production"
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  mainSections = ["tech", "books"]
+  ShowPostOnHome = true
 
-  # Footer config
-  [params.footer]
-    enable = true
-    # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
-    custom = ''
-    # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
-    hugo = false
-    # LoveIt NEW | 0.2.0 whether to show copyright info
-    copyright = true
-    # LoveIt NEW | 0.2.0 whether to show the author
-    author = true
-    # Site creation time
-    since = 2021
-    # ICP info only in China (HTML format is supported)
-    icp = ""
-    # license info (HTML format is supported)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-  
-  # Home page config
-  [params.home]
-    # LoveIt NEW | 0.2.0 amount of RSS pages
-    rss = 10
-    # Home page profile
-    [params.home.profile]
-      enable = true
-      # Gravatar Email for preferred avatar in home page
-      gravatarEmail = ""
-      # URL of avatar shown in home page
-      avatarURL = "/images/avatar.jpg"
-      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = "Muhammad Tehami"
-      # subtitle shown in home page
-      subtitle = "👨‍💻 DevOps Engineer @ Nisum Technologies Inc."
-      # whether to use typeit animation for subtitle
-      typeit = true
-      # whether to show social links
-      social = true
-      # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = ""
-    # Home page posts
-    [params.home.posts]
-      enable = true
-      # special amount of posts in each home posts page
-      paginate = 6
-      # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
-      # default behavior when you don't set "hiddenFromHomePage" in front matter
-      defaultHiddenFromHomePage = false
+  # Profile section
+  [params.homeInfoParams]
+    Title = "Muhammad Tehami"
+    Content = "DevOps & Cloud Engineer at Nisum Technologies Inc. | Experienced in Linux, Kubernetes, Terraform, and cloud platforms. Passionate about automation, performance optimization, and building scalable systems. Also writes about technology, productivity, book reviews, and travel experiences."
 
-  # Social config about the author
-  [params.social]
-    GitHub = "t3hami"
-    Linkedin = "t3hami"
-    Email = "t3hami@gmail.com"
-    Twitter = "MuhammadTehami"
+  # Social links
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/t3hami"
 
-  [params.page.math]
-      enable = true
-      # default block delimiter is $$ ... $$ and \\[ ... \\]
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
-      # default inline delimiter is $ ... $ and \\( ... \\)
-      inlineLeftDelimiter = ""
-      inlineRightDelimiter = ""
-      # KaTeX extension copy_tex
-      copyTex = true
-      # KaTeX extension mhchem
-      mhchem = true
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/t3hami"
 
-  [params.page.code]
-      # whether to show the copy button of the code block
-      copy = true
-      # the maximum number of lines of displayed code by default
-      maxShownLines = 10
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/MuhammadTehami"
 
-# Author config
-[author]
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:t3hami [at] gmail [dot] com"
+
+# Author info (for meta tags etc.)
+[params.author]
   name = "Muhammad Tehami"
-  email = "t3hami@gmail.com"
-  link = "https://github.com/t3hami"
+  email = "t3hami [at] gmail [dot] com"
+
+[markup.goldmark.renderer]
+  unsafe = true

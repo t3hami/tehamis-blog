@@ -2,3 +2,9 @@
 	path = public
 	url = https://github.com/t3hami/t3hami.github.io.git
 	branch = main
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

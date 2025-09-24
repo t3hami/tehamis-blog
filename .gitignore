@@ -1,0 +1,19 @@
+# Hugo build output
+/public/
+/resources/
+/hugo_stats.json
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node dependencies (only if you add npm-based tooling)
+node_modules/
+
+# Backup / temp files
+*.swp
+*.swo
+*~
