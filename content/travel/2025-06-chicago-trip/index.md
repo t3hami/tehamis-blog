@@ -35,7 +35,7 @@ Next, we spent several hours at the **Art Institute of Chicago**. The museum was
 
 ![Art Institute of Chicago](arts-institute.jpg)
 
-In the afternoon, we relaxed by heading toward the **Ohio Street Beach** and then spent time at **Navy Pier**. The June heat made the lakefront especially refreshing. The water was fresh, not salty as I first assumed, since Lake Michigan is part of the Great Lakes system fed by glacial sources rather than the ocean.  
+In the afternoon, we rested in the hotel after so much walking.
 
 Later in the evening, we headed to **Buckingham Fountain** for the light show. Watching the fountain dance with the city skyline behind it was beautiful and relaxing.
 
